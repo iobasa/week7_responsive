@@ -25,7 +25,11 @@
     <div class="box2"></div>
 
     <div class="image-container">
-      <img src="images/cityscape.jpg" alt="example of scaling image">
+      <!-- <img src="images/cityscape.jpg" alt="example of scaling image"> -->
+      <picture>
+        <source srcset="images/small_picture.jpg" media="max-width: 375px">
+        <img src="images/cityscape.jpg" alt="example of scaling image">
+      </picture>
     </div>
   </main>
   <script src="js/main.js"></script>
